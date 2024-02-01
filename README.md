@@ -58,8 +58,11 @@ git config --get user.name
 | `git status`                  | Muestra el estado del seguimiento del proyecto                    |
 | `git push origin <branch>`    | Empuja los cambios de la rama actual a la rama remota `<branch>`  |
 | `git pull origin <branch>`    | Trae los cambios de la rama remota `<branch>` a la rama actual    |
+| `git switch -c <new_name>`    | Crea una rama nueva por nombre `<new_name>` y entra a la misma    |
+| `git switch <new_name>`       | Entra a la rama `<new_name>`                                      |
 | `git branch -M <new_name>`    | Renombe la rama actual por `<new_name>`                           |
 | `git clone <url>`             | Clona localmente un proyecto unicado en la web con la url `<url>` |
+| `git remote -v`               | Revisa las url's remotas del proyecto local                       |
 | `git remote add origin <url>` | Agrega una url remota a un proyecto local                         |
 
 
